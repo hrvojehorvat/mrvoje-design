@@ -1,0 +1,26 @@
+{
+  "name": "@mrvoje/design",
+  "version": "1.0.0",
+  "description": "Shared design tokens for the mrvoje apps: Tailwind v4 theme, plain CSS variables and JS constants for React Native.",
+  "private": true,
+  "type": "module",
+  "files": ["dist", "tokens"],
+  "exports": {
+    "./theme.css": "./dist/theme.css",
+    "./tokens.css": "./dist/tokens.css",
+    "./tokens.json": "./tokens/tokens.json",
+    ".": {
+      "types": "./dist/tokens.d.ts",
+      "default": "./dist/tokens.js"
+    }
+  },
+  "main": "./dist/tokens.js",
+  "types": "./dist/tokens.d.ts",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
