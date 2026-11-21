@@ -1,7 +1,7 @@
 # @mrvoje/design
 
-Shared design tokens for the mrvoje apps (portfolio, BarMint, Plumcast): one source,
-three outputs, so Angular, React and React Native apps use the same colours.
+Design tokens for the mrvoje.com apps: one source, three outputs, so Angular, React and
+React Native apps use the same colours.
 
 | File | For |
 |---|---|
