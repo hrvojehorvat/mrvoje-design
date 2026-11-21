@@ -13,7 +13,7 @@ three outputs, so Angular, React and React Native apps use the same colours.
 ## Use
 
 ```json
-"dependencies": { "@mrvoje/design": "github:hrvojehorvat/mrvoje-design#v1.0.0" }
+"dependencies": { "@mrvoje/design": "https://github.com/hrvojehorvat/mrvoje-design/archive/refs/tags/v1.0.0.tar.gz" }
 ```
 
 Tailwind (Angular or React web):
@@ -40,5 +40,7 @@ npm run build   # tokens.json → dist/
 npm test        # fails if dist/ is out of date
 ```
 
-Commit `dist/` (apps install from git, without a build step), tag `vX.Y.Z`, push the tag,
+Use the tag's tarball, not `github:…`: npm writes `git+ssh://` into the lockfile for git dependencies, which CI can't fetch.
+
+Commit `dist/` (apps install the tag's tarball, without a build step), tag `vX.Y.Z`, push the tag,
 then bump the tag in each app when you want the change there.
