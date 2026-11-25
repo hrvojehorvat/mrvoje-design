@@ -23,6 +23,17 @@
   --color-plum-800: #5b2c7d;
   --color-plum-900: #4a2566;
   
+  --color-fig-50: #fdf4f7;
+  --color-fig-100: #fbe7ef;
+  --color-fig-200: #f7cfe0;
+  --color-fig-300: #f0a8c6;
+  --color-fig-400: #e57aa6;
+  --color-fig-500: #d4528a;
+  --color-fig-600: #b8386f;
+  --color-fig-700: #962c5a;
+  --color-fig-800: #7a284c;
+  --color-fig-900: #662442;
+  
   --color-accent-50: #f5f5f5;
   --color-accent-100: #e5e5e5;
   --color-accent-200: #d4d4d4;
@@ -77,6 +88,19 @@
   --color-accent-700: var(--color-plum-700);
   --color-accent-contrast: #ffffff;
   accent-color: var(--color-plum-500);
+}
+
+.theme-fig {
+  --color-accent-50: var(--color-fig-50);
+  --color-accent-100: var(--color-fig-100);
+  --color-accent-200: var(--color-fig-200);
+  --color-accent-300: var(--color-fig-300);
+  --color-accent-400: var(--color-fig-400);
+  --color-accent-500: var(--color-fig-500);
+  --color-accent-600: var(--color-fig-600);
+  --color-accent-700: var(--color-fig-700);
+  --color-accent-contrast: #ffffff;
+  accent-color: var(--color-fig-500);
 }
 
 @keyframes fadeIn {
