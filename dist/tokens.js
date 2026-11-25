@@ -73,6 +73,57 @@ export const page = {
   "dark": "#000000"
 };
 
+export const palettes = {
+  "mint": {
+    "50": "#effcf7",
+    "100": "#d6f7ea",
+    "200": "#b0eed8",
+    "300": "#7fdfc1",
+    "400": "#4cc9a5",
+    "500": "#1fae88",
+    "600": "#138c6f",
+    "700": "#11705a",
+    "800": "#12594a",
+    "900": "#114a3e"
+  },
+  "plum": {
+    "50": "#faf5fe",
+    "100": "#f2e6fc",
+    "200": "#e2c8f8",
+    "300": "#c79bf0",
+    "400": "#b47ae6",
+    "500": "#a45cdb",
+    "600": "#8a43c0",
+    "700": "#71359d",
+    "800": "#5b2c7d",
+    "900": "#4a2566"
+  },
+  "fig": {
+    "50": "#fdf4f7",
+    "100": "#fbe7ef",
+    "200": "#f7cfe0",
+    "300": "#f0a8c6",
+    "400": "#e57aa6",
+    "500": "#d4528a",
+    "600": "#b8386f",
+    "700": "#962c5a",
+    "800": "#7a284c",
+    "900": "#662442"
+  },
+  "apricot": {
+    "50": "#fff6ed",
+    "100": "#ffead5",
+    "200": "#fed2aa",
+    "300": "#fdb374",
+    "400": "#fb8f3c",
+    "500": "#f47216",
+    "600": "#e0590c",
+    "700": "#b9430d",
+    "800": "#933612",
+    "900": "#772e12"
+  }
+};
+
 export const nativeColors = {
   "bg": "#0c0a12",
   "bgRaised": "#120f1a",
@@ -86,6 +137,21 @@ export const nativeColors = {
   "border": "rgba(255,255,255,0.07)",
   "focusRing": "#ffffff",
   "live": "#e03131"
+};
+
+export const nativeColorsLight = {
+  "bg": "#f5f5f7",
+  "bgRaised": "#ffffff",
+  "text": "#171717",
+  "textSoft": "#404040",
+  "textMuted": "#595959",
+  "textFaint": "#6b6b6b",
+  "onLight": "#ffffff",
+  "glass": "rgba(0,0,0,0.04)",
+  "glassStrong": "rgba(0,0,0,0.08)",
+  "border": "rgba(0,0,0,0.1)",
+  "focusRing": "#171717",
+  "live": "#c92a2a"
 };
 
 export const radius = {

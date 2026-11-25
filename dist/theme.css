@@ -38,6 +38,17 @@
   --color-fig-800: #7a284c;
   --color-fig-900: #662442;
   
+  --color-apricot-50: #fff6ed;
+  --color-apricot-100: #ffead5;
+  --color-apricot-200: #fed2aa;
+  --color-apricot-300: #fdb374;
+  --color-apricot-400: #fb8f3c;
+  --color-apricot-500: #f47216;
+  --color-apricot-600: #e0590c;
+  --color-apricot-700: #b9430d;
+  --color-apricot-800: #933612;
+  --color-apricot-900: #772e12;
+  
   --color-accent-50: #f5f5f5;
   --color-accent-100: #e5e5e5;
   --color-accent-200: #d4d4d4;
@@ -109,6 +120,19 @@
   --color-accent-700: var(--color-fig-700);
   --color-accent-contrast: #ffffff;
   accent-color: var(--color-fig-500);
+}
+
+.theme-apricot {
+  --color-accent-50: var(--color-apricot-50);
+  --color-accent-100: var(--color-apricot-100);
+  --color-accent-200: var(--color-apricot-200);
+  --color-accent-300: var(--color-apricot-300);
+  --color-accent-400: var(--color-apricot-400);
+  --color-accent-500: var(--color-apricot-500);
+  --color-accent-600: var(--color-apricot-600);
+  --color-accent-700: var(--color-apricot-700);
+  --color-accent-contrast: #1c0d03;
+  accent-color: var(--color-apricot-500);
 }
 
 @keyframes fadeIn {

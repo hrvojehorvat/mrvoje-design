@@ -60,6 +60,57 @@ export declare const page: {
   readonly dark: "#000000";
 };
 
+export declare const palettes: {
+  readonly mint: {
+    readonly "50": "#effcf7";
+    readonly "100": "#d6f7ea";
+    readonly "200": "#b0eed8";
+    readonly "300": "#7fdfc1";
+    readonly "400": "#4cc9a5";
+    readonly "500": "#1fae88";
+    readonly "600": "#138c6f";
+    readonly "700": "#11705a";
+    readonly "800": "#12594a";
+    readonly "900": "#114a3e";
+  };
+  readonly plum: {
+    readonly "50": "#faf5fe";
+    readonly "100": "#f2e6fc";
+    readonly "200": "#e2c8f8";
+    readonly "300": "#c79bf0";
+    readonly "400": "#b47ae6";
+    readonly "500": "#a45cdb";
+    readonly "600": "#8a43c0";
+    readonly "700": "#71359d";
+    readonly "800": "#5b2c7d";
+    readonly "900": "#4a2566";
+  };
+  readonly fig: {
+    readonly "50": "#fdf4f7";
+    readonly "100": "#fbe7ef";
+    readonly "200": "#f7cfe0";
+    readonly "300": "#f0a8c6";
+    readonly "400": "#e57aa6";
+    readonly "500": "#d4528a";
+    readonly "600": "#b8386f";
+    readonly "700": "#962c5a";
+    readonly "800": "#7a284c";
+    readonly "900": "#662442";
+  };
+  readonly apricot: {
+    readonly "50": "#fff6ed";
+    readonly "100": "#ffead5";
+    readonly "200": "#fed2aa";
+    readonly "300": "#fdb374";
+    readonly "400": "#fb8f3c";
+    readonly "500": "#f47216";
+    readonly "600": "#e0590c";
+    readonly "700": "#b9430d";
+    readonly "800": "#933612";
+    readonly "900": "#772e12";
+  };
+};
+
 export declare const nativeColors: {
   readonly bg: "#0c0a12";
   readonly bgRaised: "#120f1a";
@@ -73,6 +124,21 @@ export declare const nativeColors: {
   readonly border: "rgba(255,255,255,0.07)";
   readonly focusRing: "#ffffff";
   readonly live: "#e03131";
+};
+
+export declare const nativeColorsLight: {
+  readonly bg: "#f5f5f7";
+  readonly bgRaised: "#ffffff";
+  readonly text: "#171717";
+  readonly textSoft: "#404040";
+  readonly textMuted: "#595959";
+  readonly textFaint: "#6b6b6b";
+  readonly onLight: "#ffffff";
+  readonly glass: "rgba(0,0,0,0.04)";
+  readonly glassStrong: "rgba(0,0,0,0.08)";
+  readonly border: "rgba(0,0,0,0.1)";
+  readonly focusRing: "#171717";
+  readonly live: "#c92a2a";
 };
 
 export declare const radius: {

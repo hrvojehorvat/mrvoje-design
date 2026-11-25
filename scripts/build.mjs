@@ -132,7 +132,9 @@ function jsExports(t) {
     accent: t.accent,
     font: t.font,
     page: t.page,
+    palettes: t.palettes,
     nativeColors: t.native.colors,
+    nativeColorsLight: t.native.colorsLight,
     radius: t.native.radius,
     nativeFont: t.native.font,
   }
